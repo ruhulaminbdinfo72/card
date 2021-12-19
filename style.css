@@ -1,0 +1,21 @@
+* { margin: 0%; padding: 0%; }
+#profile { background: rgb(40, 29, 90); }
+.container {overflow: hidden; background: rgb(40, 29, 90); padding: 70px 15px; width: 1140px; margin: auto; }
+.IconImg { width: 50%; float: left; }
+.profileImg {width: 330px;float: left;padding-left: 40px;position: relative;padding-bottom: 30px;}
+.profileImg img { max-width: 100%; border-radius: 100%; border: 2px solid white; padding: 10px; background: white; }
+.profileTitle { width: 50%; float: right; color: white; }
+.Title h1 { font-size: 87px; font-family: auto; font-weight: 900; }
+.desc h3 { font-size: 37px; font-family: initial; padding-top: 50px; position: relative; }
+.desc h3::after {display: block;content: "";width: 85%;border: 2px solid white;border-radius: 5px;margin-top: 15px;background: white;}
+.Title { width: 480px; }
+.Email { font-size: 30px; font-weight: 600; font-family: auto; padding-top: 55px; }
+.Email i { margin-right: 10px; color: rgb(213, 194, 223); padding: 20px 0px; }
+ 
+.icon {width: 250px;margin-left: 105px;}
+.icon a { font-size: 20px; float: left; height: 30px; width: 30px; display: grid; place-items: center; text-decoration: none; color: rgb(255, 255, 255); background: rgb(255, 255, 255); border: 1px solid rgb(37, 37, 37); border-radius: 100%; padding: 5px; margin-right: 10px; transition: all 0.3s ease 0s; }
+.icon a:first-child { background: rgb(59, 89, 152); }
+.icon a:nth-child(2) { background: linear-gradient(rgb(230, 36, 102), rgb(219, 26, 48)); }
+.icon a:nth-child(3) { background: rgb(0, 136, 204); }
+.icon a:last-child { background: rgb(78, 202, 90); }
+.icon a:hover { background: white; color: rgb(37, 37, 37); }
